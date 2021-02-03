@@ -1,4 +1,5 @@
 {
     "name": "Rando",
-    "gender": "Male"
+    "gender": "Male",
+    "productName": ["iphone X","Nokia Edge"]
 }

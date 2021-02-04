@@ -1,3 +1,14 @@
 {
-    "chromeWebSecurity": false
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout":8000,
+    "baseUrl": "https://rahulshettyacademy.com/seleniumPractise/#/",
+    "env" : {
+
+        "automUrl": "https://rahulshettyacademy.com/AutomationPractice/#/",
+        "practiceUrl": "http://qaclickacademy.com/practice.php",
+        "angularUrl": "https://www.rahulshettyacademy.com/angularpractice/"
+
+
+    }
+
 }

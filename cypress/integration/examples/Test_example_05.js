@@ -4,7 +4,8 @@ describe ('Test suite 05', function()
 {
     it('Fifth test', function()
     {
-        cy.visit('http://qaclickacademy.com/practice.php')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env("practiceUrl"))
         
         cy.get('tr td:nth-child(2)').each(($el, index, list)=>{
 

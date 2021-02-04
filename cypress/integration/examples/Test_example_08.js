@@ -6,7 +6,8 @@ describe ('Test suite 08', function()
 {
     it('Eighth test', function()
     {
-        cy.visit('http://qaclickacademy.com/practice.php')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env("practiceUrl"))
         
         cy.frameLoaded('#courses-iframe')
         cy.iframe().find('a[href*="mentorship"]').eq(0).click()

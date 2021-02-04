@@ -4,7 +4,8 @@ describe ('Test suite 04', function()
 {
     it('Fourth test', function()
     {
-        cy.visit('http://qaclickacademy.com/practice.php')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env("practiceUrl"))
         
         cy.get('#alertbtn').click()
         cy.get('[value="Confirm"]').click()

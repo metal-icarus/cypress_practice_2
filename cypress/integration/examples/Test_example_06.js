@@ -4,7 +4,8 @@ describe ('Test suite 06', function()
 {
     it('Sixth test', function()
     {
-        cy.visit('http://qaclickacademy.com/practice.php')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env("practiceUrl"))
         
         //cy.get('#mousehover').invoke('show') 
         //cannot use invoke from grandparent to grandchild

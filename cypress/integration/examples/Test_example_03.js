@@ -4,7 +4,9 @@ describe ('Test suite 03', function()
 {
     it('Third test', function()
     {
-        cy.visit('https://rahulshettyacademy.com/AutomationPractice/#/')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env('automUrl'))
+        
         
         cy.get('#checkBoxOption1').check().should('be.checked').and('have.value', 'option1')
         cy.get('#checkBoxOption1').uncheck().should('not.be.checked')   

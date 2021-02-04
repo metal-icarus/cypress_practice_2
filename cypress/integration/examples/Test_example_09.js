@@ -14,7 +14,8 @@ describe ('Test suite 09', function()
 
     it('Ninth test', function()
     {
-        cy.visit('https://www.rahulshettyacademy.com/angularpractice/')
+        //using custom variables from cypress.json
+        cy.visit(Cypress.env("angularUrl"))
         
         //cy.get(':nth-child(1) > .form-control').type('Rando')
         //cy.get('select').select('Male')

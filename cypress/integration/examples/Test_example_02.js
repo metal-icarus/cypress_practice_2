@@ -4,7 +4,9 @@ describe ('Test suite 02', function()
 {
     it('Second test', function()
     {
-        cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        //cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
+        //since it have baseURL in cypress.json
+        cy.visit('')
         cy.get('.search-keyword').type('ca')
 
         cy.wait(2000)

@@ -1,14 +1,11 @@
 {
-    "chromeWebSecurity": false,
-    "defaultCommandTimeout":8000,
-    "baseUrl": "https://rahulshettyacademy.com/seleniumPractise/#/",
-    "env" : {
-
-        "automUrl": "https://rahulshettyacademy.com/AutomationPractice/#/",
-        "practiceUrl": "http://qaclickacademy.com/practice.php",
-        "angularUrl": "https://www.rahulshettyacademy.com/angularpractice/"
-
-
-    }
-
+  "chromeWebSecurity": false,
+  "defaultCommandTimeout": 8000,
+  "baseUrl": "https://rahulshettyacademy.com/seleniumPractise/#/",
+  "env": {
+    "automUrl": "https://rahulshettyacademy.com/AutomationPractice/#/",
+    "practiceUrl": "http://qaclickacademy.com/practice.php",
+    "angularUrl": "https://www.rahulshettyacademy.com/angularpractice/"
+  },
+  "projectId": "3stwvy"
 }

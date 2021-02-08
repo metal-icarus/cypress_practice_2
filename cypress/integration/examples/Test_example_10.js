@@ -1,8 +1,8 @@
 /// <reference types="Cypress" />
 /// <reference types="Cypress-iframe" />
 import 'cypress-iframe'
-import HomePage from './../pageObjects/HomePage'
-import ProductPage from './../pageObjects/ProductPage'
+import HomePage from '../../support/pageObjects/HomePage'
+import ProductPage from '../../support/pageObjects/ProductPage'
 
 
 describe ('Test suite 10', function()

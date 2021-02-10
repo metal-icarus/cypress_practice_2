@@ -19,6 +19,7 @@
   },
   "scripts": {
     "cy:open": "cypress open",
+    "cy:run": "cypress run",
     "cy:run:chrome": "cypress run --browser chrome",
     "cy:run:firefox": "cypress run --browser firefox",
     "cy:run:electron": "cypress run --browser electron",

@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/metal-icarus/cypress_practice_2#readme",
   "devDependencies": {
-    "cypress": "^6.3.0",
+    "cypress": "^6.5.0",
     "cypress-iframe": "^1.0.1"
   },
   "scripts": {

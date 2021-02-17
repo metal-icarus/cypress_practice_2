@@ -45,11 +45,15 @@ describe ('Test suite PJ', function()
         cy.get('li[data-text="Caprichosa"]').click({force:true})
         //cy.get('select').select('Caprichosa').click()
         //cy.get('.row').find('li').contains('Crea tu pizza').click()
-        cy.wait(2000)
+        cy.wait(4000)
         cy.get('.col > #add-product-make_your_pizza').click()
 
         /* payment */
         cy.get('.icon-cart').first().click()
+        cy.get('#checkout-payment-method_ingenico').click()
+        cy.get('[data-tip="1"]').click()
+        cy.get('#ga-btn-checkout-confirm-order').click()
+        
  
 
 
